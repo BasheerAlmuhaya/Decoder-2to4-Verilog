@@ -1,0 +1,16 @@
+module Decoder2To4 (s0,s1,i0,i1,i2,i3) ;
+
+input s0,s1 ;
+output i0,i1,i2,i3 ;
+
+wire nots0 ,nots1,a1,a2,a3,a4 ;
+
+not (nots0,s0) ;
+not (nots1,s1);
+
+and g1(a1,nots0 ,nots1);
+and g2(a2,s0,nots1);
+and g3(a3,nots0,s1);
+and g4(a4,s0,s1);
+
+endmodule

@@ -1,0 +1,15 @@
+C:/modeltech64_10.7/examples/Decoder2To4.v {1 {vlog -work work -vopt -stats=none C:/modeltech64_10.7/examples/Decoder2To4.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module Decoder2To4
+
+Top level modules:
+	Decoder2To4
+
+} {} {}} C:/modeltech64_10.7/examples/Test_Decoder2To4.v {1 {vlog -work work -vopt -stats=none C:/modeltech64_10.7/examples/Test_Decoder2To4.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module Test_Decoder2To4
+
+Top level modules:
+	Test_Decoder2To4
+
+} {} {}}
